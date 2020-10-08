@@ -1,0 +1,39 @@
+{
+    "works": [
+        {
+            "name": "Pixel Art",
+            "id": "pixel-art",
+            "description": "J'ai créé une vingtaine d'assets pour un jeu vidéo. Ils sont destinés à la personnalisation de personnages, à la constitution de cartes, de quêtes et d'évènements.",
+            "image": "./works/skins.png",
+            "position": 1
+        },
+        {
+            "name": "Aquarelle",
+            "id": "aquarelle",
+            "description": "Je réalise de temps en temps des peintures à l'aquarelle.",
+            "image": "./works/aquarelle.jpg",
+            "position": 2
+        },
+        {
+            "name": "Flat Design",
+            "id": "flat-design",
+            "description": "Durant mon temps libre, il m'arrive parfois de prendre plaisir à réaliser des illustrations en flat design à l'aide du logiciel Adobe Illustrator.",
+            "image": "./works/wooloo.png",
+            "position": 3
+        },
+        {
+            "name": "Aquarelle 2",
+            "id": "aquarelle-2",
+            "description": "Je réalise de temps en temps des peintures à l'aquarelle.",
+            "image": "./works/aquarelle.jpg",
+            "position": 4
+        },
+        {
+            "name": "Flat Design 3",
+            "id": "flat-design-3",
+            "description": "Durant mon temps libre, il m'arrive parfois de prendre plaisir à réaliser des illustrations en flat design à l'aide du logiciel Adobe Illustrator.",
+            "image": "./works/wooloo.png",
+            "position": 5
+        }
+    ]
+}

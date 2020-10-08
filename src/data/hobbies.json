@@ -1,0 +1,32 @@
+{
+    "hobbies": [
+        {
+            "name": "Création",
+            "value": "Couture, dessin, peinture"
+        },
+        {
+            "name": "Sport",
+            "value": "Course à pied (trail)"
+        },
+        {
+            "name": "Jeux Vidéo",
+            "value": "RPG, simulation"
+        },
+        {
+            "name": "Lecture",
+            "value": "Harry Potter"
+        },
+        {
+            "name": "Football",
+            "value": "Arsenal"
+        },
+        {
+            "name": "Voyages",
+            "value": "Japon, Argentine, Uruguay"
+        },
+        {
+            "name": "Chat",
+            "value": "Ronie"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "projects": [
+        {
+            "name": "Choose & Cook",
+            "subtitle": "Projet personnel",
+            "image": "./projects/project_choose-and-cook.png",
+            "description": [
+                "Ce site a pour but de regrouper un grand nombre de recettes de cuisine et de proposer des fonctionnalités telles que la réalisation d'un planning hebdomadaire et la génération d'une liste de course ordonnée.",
+                "Ma contribution sur ce projet repose principalement sur la confection et l'intégration des maquettes de l'application et la réalisation de l'aspect Front-End du site en React."
+            ],
+            "technologies": [
+                "React",
+                "Redux",
+                "Express.js (Node.js)",
+                "MySQL"
+            ],
+            "website": "https://cuisine-samflo.herokuapp.com/",
+            "github": "https://github.com/samanthaseng/cuisine_samflo",
+            "position": 1
+        },
+        {
+            "name": "OrdR Fast",
+            "subtitle": "Stage de 2 mois dans une start-up",
+            "image": "./projects/project_ordrfast.png",
+            "description": [
+                "J’ai intégré le projet OrdR Fast dans le cadre d’un stage de 2 mois dans une jeune start-up. Son objectif principal est de proposer à tout type de commerce de digitaliser son activité : mise en ligne de la liste des produits en vente, commande et paiement des clients via leurs ordinateurs, tablettes ou smartphones...",
+                "J’ai travaillé aussi bien sur la Front-End de l’application web que sur son API. A propos du Front-End, j’ai notamment réalisé la page personnelle destinée aux commerces et qui sera accessible par leurs clients. Cette page est directement connectée à Firestore pour récupérer les données du commerce concerné, dans un premier temps via server-side rendering, puis dans un deuxième temps en temps réel.",
+                "J’ai également réalisé des tests unitaires avec Jest afin de tester certaines fonctionnalités de l’API à chaque pull request d’un collaborateur."
+            ],
+            "technologies": [
+                "Next.js",
+                "Redux",
+                "NestJS",
+                "Firebase/Firestore",
+                "Jest"
+            ],
+            "website": "https://ordrfast.com/",
+            "github": null,
+            "position": 2
+        },
+        {
+            "name": "The Witness",
+            "subtitle": "Projet final de formation réalisé en équipe de 4",
+            "image": "./projects/project_thewitness.png",
+            "description": [
+                "The Witness est un site web destiné aux familles qui souhaitent garder une trace écrite en ligne de leur histoire. Une famille possède son propre espace qui est enrichi avec les informations fournies par chaque membre sur sa page personnelle. Cette dernière peut être agrémentée de récits, images, sons et/ou vidéos.",
+                "Cette application développée en React est le sujet du projet final de formation que j’ai la chance de réaliser en équipe de quatre.",
+                "J'ai développé toute la partie Back-end de l'application avec un de mes collaborateurs : création des routes, échanges avec la base de données, consommation d'API (Mailjet, Cloudinary). J'ai également travaillé sur la page personnelle des utilisateurs, qui est la page centrale du site : intégration, affichage et gestion des médias classés par périodes de vie (ajout, modification et suppression), modification de certaines informations personnelles des utilisateurs. Enfin, j'ai réalisé la connexion entre le Front et le Back de la plupart des pages du site, et participé à l'harmonisation graphique de certaines d'entre elles."
+            ],
+            "technologies": [
+                "React",
+                "Redux",
+                "Express.js",
+                "MongoDB"
+            ],
+            "website": "http://thewitness.life/",
+            "github": null,
+            "position": 3
+        },
+        {
+            "name": "Morning News",
+            "subtitle": null,
+            "image": "./projects/project_morningnews.png",
+            "description": [
+                "Morning News est une plateforme qui propose à l’utilisateur des news actualisées en fonction du pays et du média qu’il a sélectionné. Grâce à son compte personnel et protégé (mot de passe chiffré), il peut enregistrer des articles en base de données pour les lire plus tard.",
+                "Ce site web a été développé grâce à React (Front-end) associé à Redux pour les échanges de données, et Express.js côté serveur."
+            ],
+            "technologies": [
+                "React",
+                "Redux",
+                "Express.js",
+                "MongoDB"
+            ],
+            "website": null,
+            "github": "https://github.com/samanthaseng/morning-news",
+            "position": 4
+        },
+        {
+            "name": "Locapic",
+            "subtitle": null,
+            "image": "./projects/project_locapic.png",
+            "description": [
+                "Locapic est une application mobile, développée en React Native, proposant à l’utilisateur de se géolocaliser à l’aide du GPS de son smartphone et de partager sa position avec d’autres utilisateurs. Il peut également prendre en notes ses lieux favoris sur la carte mise en place à l’aide de composants proposés par Expo.",
+                "Un système de chat lui permet d’échanger avec les autres utilisateurs en temps réel (socket.io).",
+                "Enfin, la sauvegarde de données dans la mémoire interne du téléphone permet de récupérer le pseudo de l’utilisateur ainsi que ses points d’intérêt à chaque ouverture de l’application."
+            ],
+            "technologies": [
+                "React Native (Expo)",
+                "Redux",
+                "Express.js",
+                "MongoDB"
+            ],
+            "website": null,
+            "github": "https://github.com/samanthaseng/locapic",
+            "position": 5
+        }
+    ]
+}

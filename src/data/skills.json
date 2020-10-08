@@ -1,0 +1,151 @@
+{
+    "categories": [
+        {
+            "name": "Langages",
+            "icon": "faCommentDots",
+            "items": [
+                {
+                    "name": "HTML5",
+                    "image": "./skills/html.png"
+                },
+                {
+                    "name": "CSS3",
+                    "image": "./skills/css.png"
+                },
+                {
+                    "name": "JavaScript",
+                    "image": "./skills/js.png"
+                },
+                {
+                    "name": "TypeScript",
+                    "image": "./skills/ts.png",
+                    "link": "https://www.typescriptlang.org/"
+                }
+            ]
+        },
+        {
+            "name": "Front-End",
+            "icon": "faDesktop",
+            "items": [
+                {
+                    "name": "React",
+                    "image": "./skills/react.png",
+                    "link": "https://fr.reactjs.org/"
+                },
+                {
+                    "name": "Next.js",
+                    "image": "./skills/nextjs.png",
+                    "link": "https://nextjs.org/"
+                },
+                {
+                    "name": "React Native",
+                    "image": "./skills/react-native.png",
+                    "link": "https://reactnative.dev/"
+                },
+                {
+                    "name": "Expo",
+                    "image": "./skills/expo.png",
+                    "link": "https://expo.io/"
+                },
+                {
+                    "name": "Redux",
+                    "image": "./skills/redux.png",
+                    "link": "https://redux.js.org/"
+                }
+            ]
+        },
+        {
+            "name": "Back-End",
+            "icon": "faCode",
+            "items": [
+                {
+                    "name": "Node.js",
+                    "image": "./skills/node.png",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "name": "Express.js",
+                    "image": "./skills/express.png",
+                    "link": "https://expressjs.com/fr/"
+                },
+                {
+                    "name": "NestJS",
+                    "image": "./skills/nestjs.png", 
+                    "link": "https://nestjs.com/"
+                }
+            ]
+        },
+        {
+            "name": "Base de données",
+            "icon": "faDatabase",
+            "items": [
+                {
+                    "name": "MongoDB",
+                    "image": "./skills/mongodb.png",
+                    "link": "https://www.mongodb.com/"
+                },
+                {
+                    "name": "Firebase",
+                    "image": "./skills/firebase.png",
+                    "link": "https://firebase.google.com/"
+                }
+            ]
+        },
+        {
+            "name": "Workflow",
+            "icon": "faCodeBranch",
+            "items": [
+                {
+                    "name": "Git",
+                    "image": "./skills/git.png",
+                    "link": "https://git-scm.com/"
+                },
+                {
+                    "name": "GitHub",
+                    "image": "./skills/github.png",
+                    "link": "https://github.com/"
+                },
+                {
+                    "name": "BitBucket",
+                    "image": "./skills/bitbucket.png",
+                    "link": "https://bitbucket.org/"
+                }
+            ]
+        },
+        {
+            "name": "Design",
+            "icon": "faPaintBrush",
+            "items": [
+                {
+                    "name": "Figma",
+                    "image": "./skills/figma.png",
+                    "link": "https://www.figma.com/"
+                },
+                {
+                    "name": "Adobe Photoshop",
+                    "image": "./skills/photoshop.png"
+                },
+                {
+                    "name": "Adobe Illustrator",
+                    "image": "./skills/illustrator.png"
+                }
+            ]
+        },
+        {
+            "name": "Travail collaboratif",
+            "icon": "faUserFriends",
+            "items": [
+                {
+                    "name": "Trello",
+                    "image": "./skills/trello.png",
+                    "link": "https://trello.com/fr"
+                },
+                {
+                    "name": "Jira",
+                    "image": "./skills/jira.png",
+                    "link": "https://www.atlassian.com/fr/software/jira"
+                }
+            ]
+        }
+    ]
+}
