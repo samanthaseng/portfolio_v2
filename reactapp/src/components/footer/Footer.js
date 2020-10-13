@@ -12,8 +12,6 @@ import {
 } from './Footer.style.js';
 
 export default function Footer() {
-    const backgroundColor = '#5B5B5B'
-
     return (
         <FooterWrapper>
             <InformationsWrapper>

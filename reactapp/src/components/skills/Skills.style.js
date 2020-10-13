@@ -2,10 +2,20 @@ import styled from 'styled-components';
 
 export const CategoryItemsWrapper = styled.div`
     display: flex;
+    margin-bottom: 25px;
+
+    @media screen and (max-width: 992px) {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 `;
 
 export const CategoryTitle = styled.h2`
     margin: 0;
+
+    @media screen and (max-width: 992px) {
+        font-size: 20px;
+    }
 `;
 
 export const CategoryTitleWrapper = styled.div`
@@ -16,6 +26,14 @@ export const CategoryTitleWrapper = styled.div`
         font-size: 25px;
         margin-right: 15px;
         color: #92BFC8;
+    }
+
+    @media screen and (max-width: 992px) {
+        justify-content: center;
+
+        .category-icon {
+            font-size: 20px;
+        }
     }
 `;
 
@@ -34,7 +52,6 @@ export const CategoryWrapperRight = styled.div`
 
 export const ItemWrapper = styled.div`
     margin-top: 10px;
-    margin-bottom: 25px;
     padding-top: 4px;
 
     img {
@@ -42,6 +59,10 @@ export const ItemWrapper = styled.div`
         margin-right: 10px;
         margin-left: 10px;
         transition: ease all 0.5s;
+
+        @media screen and (max-width: 992px) {
+            height: 50px;
+        }
     }
 
     &.withClass:hover {
@@ -55,6 +76,11 @@ export const SkillsCategoriesContainer = styled.div`
     display: flex;
     justify-content: space-around;
     padding: 0 10%;
+
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const SkillsTitle = styled.h3`
@@ -63,6 +89,10 @@ export const SkillsTitle = styled.h3`
     font-weight: 400;
     color: #92BFC8;
     margin: 0;
+
+    @media screen and (max-width: 576px) {
+        font-size: 40px;
+    }
 `;
 
 export const SkillsTitleWrapper = styled.div`

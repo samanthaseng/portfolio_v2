@@ -63,6 +63,10 @@ export const WorksTitle = styled.h3`
     font-weight: 400;
     color: #92BFC8;
     margin: 0;
+
+    @media screen and (max-width: 576px) {
+        font-size: 40px;
+    }
 `;
 
 export const WorksTitleWrapper = styled.div`
