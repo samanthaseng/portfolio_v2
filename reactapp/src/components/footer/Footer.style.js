@@ -1,11 +1,38 @@
 import styled from 'styled-components';
 
+export const ContactDetailsArea = styled.p`
+    color: #ffffff;
+    margin: 0;
+
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
+`;
+
+export const ContactDetailsWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    a:hover {
+        color: #CEE7EC;
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
+`;
+
 export const FooterWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 20px 0;
     background-color: #5B5B5B;
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+    }
 `;
 
 export const InformationsWrapper = styled.div`
@@ -19,28 +46,10 @@ export const NameArea = styled.h3`
     font-weight: 400;
     margin: 0;
     margin-bottom: 10px;
-`;
 
-export const ContactDetailsWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-
-    a:hover {
-        color: #CEE7EC;
-        text-decoration: underline;
+    @media screen and (max-width: 576px) {
+        text-align: center;
     }
-`;
-
-export const ContactDetailsArea = styled.p`
-    color: #ffffff;
-    margin: 0;
-`;
-
-export const SocialNetworksWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10%;
 `;
 
 export const SocialNetworkIconWrapper = styled.div`
@@ -50,5 +59,20 @@ export const SocialNetworkIconWrapper = styled.div`
 
     &:hover {
         color: #CEE7EC;
+    }
+
+    @media screen and (max-width: 576px) {
+        margin: 0 10px;
+    }
+`;
+
+export const SocialNetworksWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+
+    @media screen and (max-width: 576px) {
+        margin-top: 20px;
     }
 `;
