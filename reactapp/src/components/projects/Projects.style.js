@@ -113,6 +113,10 @@ export const ProjectsTitle = styled.h3`
     font-weight: 400;
     color: #ffffff;
     margin: 0;
+
+    @media screen and (max-width: 576px) {
+        font-size: 40px;
+    }
 `;
 
 export const ProjectsTitleWrapper = styled.div`

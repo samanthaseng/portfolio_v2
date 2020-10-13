@@ -39,6 +39,10 @@ export const ContactTitle = styled.h3`
     font-size: 64px;
     font-weight: 400;
     margin: 0;
+
+    @media screen and (max-width: 576px) {
+        font-size: 40px;
+    }
 `;
 
 export const ContactTitleWrapper = styled.div`
