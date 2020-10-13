@@ -4,10 +4,13 @@
             "paragraph": "Curieuse de nature, j'ai décidé de me lancer dans une toute nouvelle aventure... mais pas n’importe laquelle : le vaste océan du développement web ! “Pourquoi ?” me direz-vous. A mes heures perdues de jeune lycéenne, j’ai vaguement pataugé dans ce domaine en développant - je n’ai pas honte de l’avouer - des pages uniquement en HTML, y compris le style ! En y repensant, je me suis rappelée ô combien j’adorais voir des pages se mettre en forme et découvrir tout ce qui était possible de faire rien qu'avec des lignes de code. Mais à l’époque, je ne pensais pas en faire mon métier."
         },
         {
-            "paragraph": "Aujourd’hui, j’ai décidé de sauter dans le grand bain ! Je viens de terminer la formation proposée par la Capsule (Paris) et spécialisée en JavaScript et React.JS (Coding Bootcamp d'avril à juin 2020). Mon but désormais ? Progresser et obtenir un titre de développeur web et mobile ! J'effectue actuellement ma toute première expérience professionnelle dans le domaine, en tant que stagiaire dans une jeune start-up (React.JS / NestJS / TypeScript)."
+            "paragraph": "Aujourd’hui, j’ai décidé de sauter dans le grand bain ! J’ai réalisé la formation proposée par la Capsule (Paris) et spécialisée en JavaScript/React.JS/Node.js (Coding Bootcamp d'avril à juin 2020). Après cela, j’ai effectué ma toute première expérience professionnelle dans le domaine, en tant que stagiaire dans une jeune start-up (Next.js / NestJS)."
         },
         {
-            "paragraph": "J’ai soif d’apprendre et j’espère, un jour, être comme un petit poisson dans l’eau !"
+            "paragraph": "Mon but désormais ? Continuer à progresser, obtenir mon titre professionnel de développeur web et mobile (examen prévu pour début novembre 2020) et bien sûr, trouver un emploi !"
+        }, 
+        {
+            "paragraph": "J’ai soif d’apprendre et j’espère, un jour, être comme un petit poisson dans l’eau ^^"
         }
     ],
     "resume_link": "./cv-samantha-seng.pdf"
