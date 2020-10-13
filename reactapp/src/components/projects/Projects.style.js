@@ -4,6 +4,7 @@ export const ButtonsContainer = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    padding-bottom: 20px;
 `;
 
 export const CloseContainer = styled.div`
@@ -57,13 +58,14 @@ export const Project = styled.div`
 export const ProjectActive = styled.div`
     display: flex;
     flex-direction: column;
-   justify-content: space-between;
+    justify-content: space-between;
     height: 100%;
-    padding: 20px;
     overflow-y: auto;
 `;
 
-export const ProjectActiveContent = styled.div``;
+export const ProjectActiveContent = styled.div`
+    padding: 20px 20px 0 20px;
+`;
 
 export const ProjectsContainer = styled.div`
     display: flex;

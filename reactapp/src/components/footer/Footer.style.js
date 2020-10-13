@@ -45,7 +45,7 @@ export const SocialNetworksWrapper = styled.div`
 
 export const SocialNetworkIconWrapper = styled.div`
     color: #ffffff;
-    width: 45px;
+    font-size: 50px;
     margin-left: 20px;
 
     &:hover {

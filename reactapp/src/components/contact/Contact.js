@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useToasts } from 'react-toast-notifications';
 import { 
     ButtonWrapper,
     ContactContentWrapper,
@@ -10,6 +11,7 @@ import {
     InputContainer
 } from './Contact.style';
 import Button from '../UI/Button/Button';
+import apiCall from '../../helpers/services/apiCall';
 import { validateEmail } from '../../helpers/validators/isEmail';
 import { isRequired } from '../../helpers/validators/isRequired';
 
@@ -18,6 +20,18 @@ export default function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [formResult, setFormResult] = useState({ success: null, message: null });
+
+    useEffect(() => {
+        if (formResult.success !== null) {
+            addToast(formResult.message, {
+                appearance: formResult.success === true ? 'success' : 'error',
+                autoDismiss: true,
+            })
+        }
+        
+    }, [formResult]);
+
+    const { addToast } = useToasts();
 
     const handleNameChange = e => {
         setName(e.target.value);
@@ -31,7 +45,7 @@ export default function Contact() {
         setMessage(e.target.value);   
     }
 
-    const handleSendMessage = () => {
+    const handleSendMessage = async () => {
         setFormResult({ success: null, message: null });
 
         if (isRequired(name) || validateEmail(email) || isRequired(message)) {
@@ -43,11 +57,22 @@ export default function Contact() {
                         ? validateEmail(email) 
                         : isRequired(message)
             })
+        } else {
+            const options = {
+                route: '/contact/',
+                method: 'POST',
+                headers: {'Content-Type':'application/x-www-form-urlencoded'},
+                body: `name=${name}&email=${email}&message=${message}`
+            }
+            const response = await apiCall(options);
+            
+            setFormResult({success: response.success, message: response.message});
+            if (response.success === true) {
+                setName('');
+                setEmail('');
+                setMessage('');
+            }
         };
-
-        // setName('');
-        // setEmail('');
-        // setMessage('');
     }
 
     return (
