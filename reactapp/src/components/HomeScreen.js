@@ -1,4 +1,5 @@
 import React from 'react';
+import { ToastProvider, useToasts } from 'react-toast-notifications'
 import Contact from './contact/Contact';
 import Description from './description/Description';
 import Footer from './footer/Footer';
@@ -16,7 +17,9 @@ export default function HomeScreen () {
       <Skills />
       <Projects />
       <Works />
+      <ToastProvider>
       <Contact />
+      </ToastProvider>
       <Footer />
     </>
   );
