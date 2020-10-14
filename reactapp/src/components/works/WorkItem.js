@@ -17,7 +17,12 @@ export default function WorkItem(props) {
             <WorkImage image={image} />
         </Work>
         
-        <ReactTooltip id={id} place={tooltipPlace} type="dark" effect="solid">
+        <ReactTooltip 
+            id={id} 
+            place={tooltipPlace} 
+            type="dark" 
+            effect="solid"
+        >
             <TooltipTitle>
                 {name}
             </TooltipTitle>

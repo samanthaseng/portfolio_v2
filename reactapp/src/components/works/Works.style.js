@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const TooltipContent = styled.p`
     width: 400px;
+
+    @media screen and (max-width: 576px) {
+        width: 200px;
+    }
 `;
 
 export const TooltipTitle = styled.h3`
@@ -20,6 +24,10 @@ export const Work = styled.div`
 
     :hover {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 100px;
     }
 `;
 
@@ -40,15 +48,29 @@ export const WorksContainer = styled.div`
 export const WorksContainerLineOne = styled.div`
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 1070px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const WorksContainerLineTwo = styled.div`
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const WorksContainerSubLineOne = styled.div`
     display: flex;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const WorksWrapper = styled.div`
