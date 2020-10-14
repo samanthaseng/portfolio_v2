@@ -25,9 +25,12 @@ export const DescriptionWrapper = styled.div`
     width: 100%;
     padding: 40px 0 60px 0;
 
-    @media screen and (max-width: 992px) {
-        
+    @media screen and (max-width: 992px) { 
         padding-bottom: 10px;
+    }
+
+    @media screen and (max-width: 700px) {
+        padding-top: 0;
     }
 `;
 
@@ -124,5 +127,9 @@ export const TitleWrapper = styled.div`
 
     @media screen and (max-width: 992px) {
         margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 700px) {
+        margin-top: 0;
     }
 `;
