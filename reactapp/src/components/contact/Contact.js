@@ -8,7 +8,9 @@ import {
     ContactTitleWrapper,
     ContactUpWrapper,
     ContactWrapper,
-    InputContainer
+    FormContainer,
+    InputContainer,
+    InputsContainer
 } from './Contact.style';
 import Button from '../UI/Button/Button';
 import apiCall from '../../helpers/services/apiCall';
@@ -85,23 +87,27 @@ export default function Contact() {
                 <ContactText>
                     N'hésitez pas à me contacter. Je vous répondrai dans les plus brefs délais !
                 </ContactText>
-                <InputContainer>
-                    <input 
-                        placeholder="Nom" 
-                        value={name}
-                        onChange={handleNameChange}
-                    />
-                    <input 
-                        type="email" 
-                        placeholder="Email" 
-                        value={email}
-                        onChange={handleEmailChange}
-                    />
-                    <textarea 
-                        placeholder="Votre message"
-                        value={message}
-                        onChange={handleMessageChange}
-                    />
+                <FormContainer>
+                    <InputsContainer>
+                        <InputContainer>
+                            <input 
+                                placeholder="Nom" 
+                                value={name}
+                                onChange={handleNameChange}
+                            />
+                            <input 
+                                type="email" 
+                                placeholder="Email" 
+                                value={email}
+                                onChange={handleEmailChange}
+                            />
+                        </InputContainer>
+                        <textarea 
+                            placeholder="Votre message"
+                            value={message}
+                            onChange={handleMessageChange}
+                        />
+                    </InputsContainer>
 
                     <ButtonWrapper>
                         <Button 
@@ -111,7 +117,7 @@ export default function Contact() {
                             Envoyer
                         </Button>
                     </ButtonWrapper>
-                </InputContainer>
+                </FormContainer>
             </ContactContentWrapper>
         </ContactWrapper>
     )
