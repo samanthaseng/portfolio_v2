@@ -17,6 +17,10 @@ export const ContactContentWrapper = styled.div`
 export const ContactText = styled.p`
     margin: 0;
     margin-bottom: 30px;
+
+    @media screen and (max-width: 862px) {
+        display: none;
+    }
 `;
 
 export const ContactUpWrapper = styled.div`
@@ -25,6 +29,10 @@ export const ContactUpWrapper = styled.div`
     background-position: center;
     width: 100%;
     height: 100px;
+
+    @media screen and (max-width: 1003px) {
+        height: 10vw;
+    }
 `;
 
 export const ContactWrapper = styled.div`
@@ -32,6 +40,10 @@ export const ContactWrapper = styled.div`
     background-image: url('./header-background.jpg');
     background-size: 100% auto;
     background-position: top;
+
+    @media screen and (max-width: 768px) {
+        background-size: cover;
+    }
 `;
 
 export const ContactTitle = styled.h3`
@@ -49,9 +61,13 @@ export const ContactTitleWrapper = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 862px) {
+        margin-bottom: 30px;
+    }
 `;
 
-export const InputContainer = styled.div`
+export const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,4 +90,65 @@ export const InputContainer = styled.div`
         min-height: 150px;
     }
 
+    @media screen and (max-width: 1137px) {
+        & input {
+            min-width: 200px;
+            max-width: 200px;
+            margin-right: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1003px) {
+        & input {
+            min-width: 180px;
+            max-width: 180px;
+        }
+
+        & textarea {
+            min-height: 70px;
+            max-height: 70px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 576px) {
+        & input, textarea {
+            min-width: 220px;
+            max-width: 220px;
+        }
+    }
+`;
+
+export const InputContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1003px) {
+        justify-content: space-between;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+    }
+`;
+
+export const InputsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1137px) {
+        display: flex;
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;

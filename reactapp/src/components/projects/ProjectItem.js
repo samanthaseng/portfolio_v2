@@ -51,7 +51,13 @@ function ProjectItem(props) {
         ? 'default'
         : position === activeProject
             ? 'open'
-            : 'reduced';
+            : ((position === 0 && activeProject === 1) 
+                || (position === 1 && activeProject === 0) 
+                || (position === 2 && activeProject === 3) 
+                || (position === 3 && activeProject === 2) 
+              )
+                ? 'reduced neighbour'
+                : 'reduced';
 
     const descriptionToDisplay = description.map(text => {
         return <Content>{text}</Content>

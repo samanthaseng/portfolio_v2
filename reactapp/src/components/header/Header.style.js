@@ -18,6 +18,10 @@ export const HeaderWrapper = styled.div`
     width: 100%;
     height: 30vw;
     transform: scaleX(-1);
+
+    @media screen and (max-width: 700px) {
+        height: 100px;
+    }
 `;
 
 export const InitialsContainer = styled.div`
@@ -30,7 +34,11 @@ export const InitialsContainer = styled.div`
     height: 200px;
     position: absolute;
     left: calc(50vw - 100px);
-    bottom: -50px;
+    bottom: -1vw;
+
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
 `;
 
 export const InitialsFirstName = styled.h2`
@@ -63,7 +71,19 @@ export const InitialsSubContainer = styled.div`
 
 export const NavbarGroup = styled.li`
     display: flex;
+    justify-content: space-around;
+    width: 100%;
     background-color: #ffffff;
+
+    @media screen and (max-width: 992px) {
+        &.navbar-center {
+            display: none;
+        }        
+    }
+
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
 `;
 
 export const NavbarItem = styled.ul`
@@ -71,8 +91,6 @@ export const NavbarItem = styled.ul`
     font-size: 24px;
     color: #5B5B5B;
     padding: 0;
-    margin-left: 100px;
-    margin-right: 100px;
     cursor: pointer;
     position: relative;
 
@@ -98,4 +116,9 @@ export const NavbarWrapper = styled.div`
     background-color: #ffffff;
     width: 100%;
     position: relative;
+
+    @media screen and (max-width: 700px) {
+        justify-content: flex-end;
+        padding: 30px 25px;
+    }
 `;

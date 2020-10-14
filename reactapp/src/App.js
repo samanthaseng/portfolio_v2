@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createStore, combineReducers } from 'redux';
 
 import HomeScreen from './components/HomeScreen';
+import openDrawer from './reducers/drawer.reducer';
 import project from './reducers/project.reducer';
 
-const store = createStore(combineReducers({project}));
+const store = createStore(combineReducers({project, openDrawer}));
 
 function App() {
   return (

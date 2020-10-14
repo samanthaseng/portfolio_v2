@@ -53,6 +53,32 @@ export const Project = styled.div`
     :hover {
         transform: scale(1.02);
     }
+
+    @media screen and (max-width: 768px) {
+        height: 300px;
+
+        &.default, &.reduced {
+            width: 50vw;
+        }
+
+        &.open {
+            width: 80vw;
+        }
+
+        &.reduced &.neighbour {
+            width: 20vw;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        &.default, &.open, &.reduced, &.neighbour {
+            width: 100vw;
+        }
+
+        &.open {
+            height: 400px;
+        }
+    }
 `;
 
 export const ProjectActive = styled.div`
@@ -69,6 +95,26 @@ export const ProjectActiveContent = styled.div`
 
 export const ProjectsContainer = styled.div`
     display: flex;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+`;
+
+export const ProjectsContainerLineOne = styled.div`
+    display: flex;
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+    }
+`;
+
+export const ProjectsContainerLineTwo = styled.div`
+    display: flex;
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+    }
 `;
 
 export const ProjectHoverContainer = styled.div`
