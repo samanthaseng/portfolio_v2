@@ -8,11 +8,13 @@ import {
     InitialsName,
     InitialsSubContainer
 } from './Header.style';
+import HamburgerButton from '../UI/HamburgerButton/HamburgerButton';
 
 export default function Navbar() {
     
     return (
         <NavbarWrapper>
+            <HamburgerButton className="hamburger-button" />
             <InitialsContainer>
                 <InitialsSubContainer>
                     <InitialsFirstName>S</InitialsFirstName>
@@ -27,7 +29,7 @@ export default function Navbar() {
                     <a href="#projects">Projets réalisés</a>
                 </NavbarItem>
             </NavbarGroup>
-            <NavbarGroup>
+            <NavbarGroup className="navbar-center">
             </NavbarGroup>
             <NavbarGroup className="navbar-right">
                 <NavbarItem>
