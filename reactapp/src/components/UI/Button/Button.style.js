@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ButtonWrapper = styled.div`
     
     & button {
-        min-width: 150px;
+        min-width: ${props => props.withMinWidth ? '150px' : null };
         background-color: ${props => props.backgroundColor};
         color: ${props => props.textColor};
         border: none;

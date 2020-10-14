@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ProjectItem from './ProjectItem';
 import {
     ProjectsContainer,
+    ProjectsContainerLineOne,
+    ProjectsContainerLineTwo,
     ProjectsTitle,
     ProjectsTitleWrapper,
     ProjectsWrapper
@@ -35,7 +37,14 @@ export default function Projects() {
                 <ProjectsTitle>Projets réalisés</ProjectsTitle>
             </ProjectsTitleWrapper>
             <ProjectsContainer>
-                {projectsToDisplay}
+                <ProjectsContainerLineOne>
+                    {projectsToDisplay[0]}
+                    {projectsToDisplay[1]}
+                </ProjectsContainerLineOne>
+                <ProjectsContainerLineTwo>
+                    {projectsToDisplay[2]}
+                    {projectsToDisplay[3]}
+                </ProjectsContainerLineTwo>
             </ProjectsContainer>
         </ProjectsWrapper>
     )
