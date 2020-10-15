@@ -1,4 +1,4 @@
-export default function openDrawer (openDrawer = true, action) {
+export default function openDrawer (openDrawer = false, action) {
     if (action.type === 'changeState') {
         return !openDrawer;
     } else {

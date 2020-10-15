@@ -7,7 +7,7 @@ import {
 function HamburgerButton(props) {
     const { openDrawer, changeState } = props;
 
-    let buttonClass = openDrawer === false ? 'close' : null;
+    let buttonClass = openDrawer === true ? 'close' : null;
 
     return (
         <ButtonContainer 

@@ -20,7 +20,8 @@ export const HeaderWrapper = styled.div`
     transform: scaleX(-1);
 
     @media screen and (max-width: 700px) {
-        height: 100px;
+        // height: 100px; if button for hamburger menu
+        height: 0px;
     }
 `;
 
