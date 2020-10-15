@@ -130,6 +130,6 @@ export const TitleWrapper = styled.div`
     }
 
     @media screen and (max-width: 700px) {
-        margin-top: 0;
+        // margin-top: 0; if button for hamburger menu
     }
 `;

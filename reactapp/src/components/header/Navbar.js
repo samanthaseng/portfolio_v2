@@ -10,11 +10,10 @@ import {
 } from './Header.style';
 import HamburgerButton from '../UI/HamburgerButton/HamburgerButton';
 
-export default function Navbar() {
-    
+export default function Navbar() {    
     return (
         <NavbarWrapper>
-            <HamburgerButton className="hamburger-button" />
+            {/* <HamburgerButton className="hamburger-button" /> */}
             <InitialsContainer>
                 <InitialsSubContainer>
                     <InitialsFirstName>S</InitialsFirstName>
