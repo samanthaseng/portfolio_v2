@@ -35,7 +35,10 @@ export default function SkillsCategory(props) {
     })
     
     return (
-        <CategoryWrapper>
+        <CategoryWrapper
+            data-aos="fade-up"
+            data-aos-duration="800"
+        >
             <CategoryTitleWrapper>
                 <FontAwesomeIcon icon={icon} className='category-icon' />
                 <CategoryTitle>{name}</CategoryTitle>

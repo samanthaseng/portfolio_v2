@@ -17,7 +17,18 @@ import data from '../../data/description.json';
 export default function Description() {
     const { descriptions, resume_link } = data;
 
-    const descriptionToDisplay = descriptions.map((description, i) => <TextArea key={i}>{description.paragraph}</TextArea>);
+    const descriptionToDisplay = descriptions.map((description, i) => {
+        return (
+            <TextArea 
+                key={i} 
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-duration="500"
+            >
+                {description.paragraph}
+            </TextArea>
+        )
+    });
 
     const image = "./description-illustration.jpg"
 
