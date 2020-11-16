@@ -8,18 +8,32 @@
             "position": 1
         },
         {
-            "name": "Aquarelle",
-            "id": "aquarelle",
+            "name": "Aquarelle de paysages",
+            "id": "watercolor",
             "description": "Je réalise de temps en temps des peintures à l'aquarelle.",
             "image": "./works/aquarelle.jpg",
             "position": 2
         },
         {
-            "name": "Flat Design",
+            "name": "Flat Design de Wooloo",
             "id": "flat-design",
-            "description": "Durant mon temps libre, il m'arrive parfois de prendre plaisir à réaliser des illustrations en flat design à l'aide du logiciel Adobe Illustrator.",
+            "description": "Il m'arrive parfois de prendre plaisir à réaliser des illustrations en flat design à l'aide du logiciel Adobe Illustrator.",
             "image": "./works/wooloo.png",
             "position": 3
+        },
+        {
+            "name": "Travaux de couture divers",
+            "id": "stitching",
+            "description": "Durant mon temps libre, je sors ma bonne vieille (pas si vieille que ça) machine à coudre et me lance à la confection de nouveaux projets couture.",
+            "image": "./works/stitching.jpg",
+            "position": 4
+        },
+        {
+            "name": "Dessin de Ponyta de Galar et Palarticho",
+            "id": "drawing",
+            "description": "Quand j'étais petite, j'adorais dessiner tout et n'importe quoi ! Aujourd'hui, cela n'a pas changé. Même si je ne dessine plus autant qu'avant, j'aime toujours autant ça. Ceci est un dessin que j'ai réalisé suite aux annonces de l'arrivée de Ponyta de Galar et Palarticho dans les jeux Pokémon Epée et Bouclier.",
+            "image": "./works/drawing.png",
+            "position": 4
         }
     ]
 }

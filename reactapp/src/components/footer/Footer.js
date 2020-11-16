@@ -17,7 +17,7 @@ export default function Footer() {
             <InformationsWrapper>
                 <NameArea>Samantha Seng</NameArea>
                 <ContactDetailsWrapper>
-                    <ContactDetailsArea>Paris, France</ContactDetailsArea>
+                    <ContactDetailsArea>Noisy-le-Grand, France</ContactDetailsArea>
                     <ContactDetailsArea><a href="mailto:seng.samanthas@gmail.com">seng.samanthas@gmail.com</a></ContactDetailsArea>                   
                 </ContactDetailsWrapper>
             </InformationsWrapper>

@@ -60,6 +60,17 @@ export const ImageWrapper = styled.div`
     }
 `;
 
+export const InterestsContainer = styled.div`
+    
+`;
+
+export const InterestsWrapper = styled.div`
+    padding: 0 10%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+`;
+
 export const MainImageWrapper = styled.div`
     display: flex;
     align-items: center;
@@ -90,8 +101,7 @@ export const NameArea = styled.h1`
     }
 `;
 
-export const TextArea = styled.p`
-`;
+export const TextArea = styled.p``;
 
 export const TextWrapper = styled.div`
     width: 75%;
