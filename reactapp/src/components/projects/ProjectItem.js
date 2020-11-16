@@ -69,9 +69,6 @@ function ProjectItem(props) {
             className={projectClass}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            data-aos="flip-right"
-            data-aos-offset="200"
-            data-aos-duration="1000"
         >
             <ProjectMainContainer className={projectClass}>
                 { position !== activeProject &&
