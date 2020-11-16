@@ -15,6 +15,8 @@ export const CloseContainer = styled.div`
         font-size: 30px;
         color: #5B5B5B;
         cursor: pointer;
+        transition-property: color;
+        transition-duration: 0.2s;
 
         :hover {
             color: #CEE7EC;
@@ -151,6 +153,16 @@ export const ProjectMainContainer = styled.div`
         }
         
     }
+`;
+
+export const ProjectsNumber = styled.h2`
+    font-weight: normal;
+`;
+
+export const ProjectsNumberWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
 `;
 
 export const ProjectsTitle = styled.h3`

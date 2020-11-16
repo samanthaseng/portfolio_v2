@@ -21,6 +21,8 @@ export const Work = styled.div`
     margin-right: 60px;
     transform: rotate(45deg); 
     overflow: hidden;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
 
     :hover {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);

@@ -4,6 +4,8 @@ import {
     ProjectsContainer,
     ProjectsContainerLineOne,
     ProjectsContainerLineTwo,
+    ProjectsNumber,
+    ProjectsNumberWrapper,
     ProjectsTitle,
     ProjectsTitleWrapper,
     ProjectsWrapper
@@ -46,6 +48,9 @@ export default function Projects() {
                     {projectsToDisplay[3]}
                 </ProjectsContainerLineTwo>
             </ProjectsContainer>
+            <ProjectsNumberWrapper>
+                <ProjectsNumber>Nombre de projets réalisés : </ProjectsNumber>
+            </ProjectsNumberWrapper>        
         </ProjectsWrapper>
     )
 }
