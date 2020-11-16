@@ -9,7 +9,7 @@ export default function PackagesItem(props) {
 
     return (
         <PackageWrapper className={link ? 'withClass' : null}>
-            <a href={link ? link : null} target="_blank">
+            <a href={link ? link : null} target="_blank" rel="noopener noreferrer">
                 {name}
             </a>
         </PackageWrapper>

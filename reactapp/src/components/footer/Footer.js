@@ -23,12 +23,12 @@ export default function Footer() {
             </InformationsWrapper>
             <SocialNetworksWrapper>
                 <SocialNetworkIconWrapper>
-                    <a href="https://www.linkedin.com/in/samanthaseng/" target="_blank">
+                    <a href="https://www.linkedin.com/in/samanthaseng/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin}/>
                     </a>
                 </SocialNetworkIconWrapper>
                 <SocialNetworkIconWrapper>
-                    <a href="https://github.com/samanthaseng" target="_blank">
+                    <a href="https://github.com/samanthaseng" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithubSquare} />
                     </a>
                 </SocialNetworkIconWrapper>

@@ -17,7 +17,6 @@ export default function BackToTop() {
             setButtonDisplay('none');
         }
     }
-    console.log(buttonDisplay)
 
     function topFunction() {
         document.body.scrollTop = 0; 
