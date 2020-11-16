@@ -25,7 +25,7 @@ export default function Description() {
         <DescriptionWrapper>
             <TitleWrapper>
                 <NameArea>Samantha Seng</NameArea>
-                <TitleArea>Développeuse web</TitleArea>
+                <TitleArea>Développeuse web Full-Stack</TitleArea>
             </TitleWrapper>
             <ContentWrapper>
                 <MainImageWrapper>

@@ -85,12 +85,13 @@ export const ItemWrapper = styled.div`
 
 export const PackageWrapper = styled.div`
     background-color: #ffffff;
-    border: #92BFC8 solid 1px;
+    // border: #92BFC8 solid 1px;
     border-radius: 20px;
+    box-shadow: 0px 0px 3px #BBBBBB;
     padding: 3px 10px;
     margin: 10px 5px 0 0;
     transition-property: background-color;
-    transition-duration: 0.5s;
+    transition-duration: 0.8s;
 
     &:hover {
         background-color: #CBDFE4; 
