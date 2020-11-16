@@ -172,6 +172,10 @@
                     "link": "https://cdnjs.com/libraries/Chart.js"
                 },
                 {
+                    "name": "Leaflet",
+                    "link": "https://react-leaflet.js.org/"
+                },
+                {
                     "name": "Styled Components",
                     "link": "https://styled-components.com/"
                 },
@@ -187,10 +191,6 @@
                     "name": "JSON Web Tokens",
                     "link": "https://github.com/auth0/node-jsonwebtoken#readme"
                 }, 
-                {
-                    "name": "Leaflet",
-                    "link": "https://react-leaflet.js.org/"
-                },
                 {
                     "name": "socket.io",
                     "link": "https://socket.io/"

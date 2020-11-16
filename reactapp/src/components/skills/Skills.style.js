@@ -45,12 +45,20 @@ export const CategoryWrapperLeft = styled.div`
     display: flex;
     flex-direction: column;
     width: 55%;
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+    }
 `;
 
 export const CategoryWrapperRight = styled.div`
     display: flex;
     flex-direction: column;
     width: 45%;
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+    }
 `;
 
 export const ItemWrapper = styled.div`

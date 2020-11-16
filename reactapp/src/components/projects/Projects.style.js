@@ -155,16 +155,6 @@ export const ProjectMainContainer = styled.div`
     }
 `;
 
-export const ProjectsNumber = styled.h2`
-    font-weight: normal;
-`;
-
-export const ProjectsNumberWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-`;
-
 export const ProjectsTitle = styled.h3`
     font-family: 'Dancing Script', cursive;
     font-size: 64px;
