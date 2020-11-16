@@ -27,7 +27,7 @@ export const FooterWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 0;
+    padding: 50px 0;
     background-color: #5B5B5B;
 
     @media screen and (max-width: 576px) {

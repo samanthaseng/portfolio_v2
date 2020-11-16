@@ -146,6 +146,56 @@
                     "link": "https://www.atlassian.com/fr/software/jira"
                 }
             ]
+        },
+        {
+            "name": "Librairies",
+            "icon": "faToolbox",
+            "items": [
+                { 
+                    "name": "Jquery",
+                    "link": "https://jquery.com/"
+                },
+                {
+                    "name": "Bootstrap",
+                    "link": "https://getbootstrap.com/"
+                },
+                {
+                    "name": "Ant Design",
+                    "link": "https://ant.design/"
+                },
+                {
+                    "name": "Material UI",
+                    "link": "https://material-ui.com/"
+                },
+                {
+                    "name": "Chart.js",
+                    "link": "https://cdnjs.com/libraries/Chart.js"
+                },
+                {
+                    "name": "Styled Components",
+                    "link": "https://styled-components.com/"
+                },
+                {
+                    "name": "crypto-js",
+                    "link": "https://github.com/brix/crypto-js"
+                },
+                {
+                    "name": "Bcrypt",
+                    "link": "https://github.com/kelektiv/node.bcrypt.js#readme"
+                },
+                {
+                    "name": "JSON Web Tokens",
+                    "link": "https://github.com/auth0/node-jsonwebtoken#readme"
+                }, 
+                {
+                    "name": "Leaflet",
+                    "link": "https://react-leaflet.js.org/"
+                },
+                {
+                    "name": "socket.io",
+                    "link": "https://socket.io/"
+                }
+            ]
         }
     ]
 }

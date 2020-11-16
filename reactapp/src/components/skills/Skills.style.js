@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const CategoryItemsWrapper = styled.div`
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 25px;
 
     @media screen and (max-width: 992px) {
@@ -43,11 +44,13 @@ export const CategoryWrapper = styled.div`
 export const CategoryWrapperLeft = styled.div`
     display: flex;
     flex-direction: column;
+    width: 55%;
 `;
 
 export const CategoryWrapperRight = styled.div`
     display: flex;
     flex-direction: column;
+    width: 45%;
 `;
 
 export const ItemWrapper = styled.div`
@@ -69,6 +72,18 @@ export const ItemWrapper = styled.div`
         img {
             transform: scale(1.3);
         }
+    }
+`;
+
+export const PackageWrapper = styled.div`
+    background-color: #ffffff;
+    border: #92BFC8 solid 1px;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 10px 5px 0 0;
+
+    &:hover {
+        background-color: #CBDFE4; 
     }
 `;
 

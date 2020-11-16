@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PropTypes from 'prop-types';
+import PackagesItem from './PackagesItem';
 import SkillItem from './SkillItem';
 import {
     CategoryItemsWrapper,
@@ -13,6 +14,16 @@ export default function SkillsCategory(props) {
     const { name, icon, items } = props;
 
     const itemsList = items.map(item => {
+        if (name === 'Librairies') {
+            return (
+                <PackagesItem 
+                    name={item.name} 
+                    link={item.link} 
+                    key={item.name}
+                />
+            )
+        } 
+
         return (
             <SkillItem 
                 name={item.name} 
@@ -20,7 +31,7 @@ export default function SkillsCategory(props) {
                 link={item.link} 
                 key={item.name}
             />
-        )
+        )        
     })
     
     return (
