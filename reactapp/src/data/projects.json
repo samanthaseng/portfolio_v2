@@ -1,7 +1,8 @@
 {
+    "number": 9,
     "projects": [
         {
-            "name": "Choose & Cook",
+            "name": "Choose n'Cook",
             "subtitle": "Projet personnel",
             "image": "./projects/project_choose-and-cook.png",
             "description": [

@@ -9,7 +9,7 @@ export default function SkillItem(props) {
 
     return (
         <ItemWrapper className={link ? 'withClass' : null}>
-            <a href={link ? link : null} target="_blank">
+            <a href={link ? link : null} target="_blank" rel="noopener noreferrer">
                 <img src={image} alt={name} />
             </a>
         </ItemWrapper>

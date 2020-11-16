@@ -15,6 +15,8 @@ export const CloseContainer = styled.div`
         font-size: 30px;
         color: #5B5B5B;
         cursor: pointer;
+        transition-property: color;
+        transition-duration: 0.2s;
 
         :hover {
             color: #CEE7EC;

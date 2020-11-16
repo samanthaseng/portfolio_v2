@@ -2,7 +2,6 @@ import React from 'react';
 import { 
     DescriptionWrapper,
     TitleWrapper,
-    MainWrapper,
     NameArea,
     TitleArea,
     ContentWrapper,
@@ -31,7 +30,7 @@ export default function Description() {
             <ContentWrapper>
                 <MainImageWrapper>
                     <ImageWrapper>
-                        <img src={image} className="illustration" />
+                        <img src={image} className="illustration" alt="illustration plante" />
                     </ImageWrapper>
                 </MainImageWrapper>
                 <TextWrapper>

@@ -10,6 +10,8 @@ export const ButtonWrapper = styled.div`
         cursor: pointer;
         margin-right: 5px;
         margin-left: 5px;
+        transition-property: background-color;
+        transition-duration: 0.5s;
 
         :hover {
             background-color: ${props => props.backgroundColorOnHover};

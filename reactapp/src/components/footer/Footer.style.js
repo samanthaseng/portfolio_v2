@@ -27,7 +27,7 @@ export const FooterWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 0;
+    padding: 50px 0;
     background-color: #5B5B5B;
 
     @media screen and (max-width: 576px) {
@@ -56,6 +56,8 @@ export const SocialNetworkIconWrapper = styled.div`
     color: #ffffff;
     font-size: 50px;
     margin-left: 20px;
+    transition-property: color;
+        transition-duration: 0.5s;
 
     &:hover {
         color: #CEE7EC;

@@ -62,7 +62,7 @@ export default function CustomedButton(props) {
             backgroundColorOnHover={backgroundColorOnHover}
             withMinWidth={withMinWidth}
         >
-            <a href={props.link ? props.link : null} target="_blank">
+            <a href={props.link ? props.link : null} target="_blank" rel="noopener noreferrer">
                 <button onClick={action ? action : null}>
                     <InnerBorder borderColor={borderColor}>
                         <ButtonText>

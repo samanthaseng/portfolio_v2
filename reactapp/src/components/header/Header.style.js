@@ -36,6 +36,12 @@ export const InitialsContainer = styled.div`
     position: absolute;
     left: calc(50vw - 100px);
     bottom: -1vw;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+
+    &:hover {
+        background-color: #92BFC8;
+    }
 
     @media screen and (max-width: 992px) {
         display: none;

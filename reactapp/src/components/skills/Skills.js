@@ -7,6 +7,7 @@ import {
     faDesktop,
     faPaintBrush,
     faQuestion,
+    faToolbox,
     faUserFriends
 } from '@fortawesome/free-solid-svg-icons';
 import SkillsCategory from './SkillsCategory';
@@ -44,6 +45,9 @@ export default function Skills() {
             case 'faPaintBrush':
                 icon = faPaintBrush;
                 break;
+            case 'faToolbox':
+                icon = faToolbox;
+                break;
             case 'faUserFriends':
                 icon = faUserFriends;
                 break;
@@ -78,6 +82,7 @@ export default function Skills() {
                     {categoriesList[4]}
                     {categoriesList[5]}
                     {categoriesList[6]}
+                    {categoriesList[7]}
                 </CategoryWrapperRight>
             </SkillsCategoriesContainer>
         </SkillsWrapper>

@@ -7,6 +7,7 @@ import Header from './header/Header';
 import Projects from './projects/Projects';
 import Skills from './skills/Skills';
 import Works from './works/Works';
+import BackToTop from './UI/BackToTop/BackToTop';
 import '../App.css';
 
 export default function HomeScreen () {
@@ -21,6 +22,7 @@ export default function HomeScreen () {
       <Contact />
       </ToastProvider>
       <Footer />
+      <BackToTop />
     </>
   );
 }

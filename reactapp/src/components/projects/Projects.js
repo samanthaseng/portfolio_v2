@@ -45,7 +45,7 @@ export default function Projects() {
                     {projectsToDisplay[2]}
                     {projectsToDisplay[3]}
                 </ProjectsContainerLineTwo>
-            </ProjectsContainer>
+            </ProjectsContainer>       
         </ProjectsWrapper>
     )
 }
