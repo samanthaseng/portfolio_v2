@@ -25,7 +25,7 @@
             "name": "Travaux de couture divers",
             "id": "stitching",
             "description": "Durant mon temps libre, je sors ma bonne vieille (pas si vieille que ça) machine à coudre et me lance à la confection de nouveaux projets couture.",
-            "image": "./works/stitching.jpg",
+            "image": "./works/stitching.JPG",
             "position": 4
         },
         {
@@ -33,7 +33,7 @@
             "id": "drawing",
             "description": "Quand j'étais petite, j'adorais dessiner tout et n'importe quoi ! Aujourd'hui, cela n'a pas changé. Même si je ne dessine plus autant qu'avant, j'aime toujours autant ça. Ceci est un dessin que j'ai réalisé suite aux annonces de l'arrivée de Ponyta de Galar et Palarticho dans les jeux Pokémon Epée et Bouclier.",
             "image": "./works/drawing.png",
-            "position": 4
+            "position": 5
         }
     ]
 }
